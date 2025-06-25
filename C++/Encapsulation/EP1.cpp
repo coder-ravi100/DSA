@@ -1,3 +1,4 @@
+/*Definition : Wrapping Of Data and function into a single unit (class)*/
 /*Incapsulation For Use METHOD GETTER AND SETTER*/
 #include<iostream>
 using namespace std;
@@ -7,7 +8,7 @@ class sample
     int Roll;
     string Name;
     public:
-    void set(int r,string n)/*Set Set Value*/
+    void set(int r,string n)/*Set Set of Value*/
     {
         Roll = r;
         Name = n;
