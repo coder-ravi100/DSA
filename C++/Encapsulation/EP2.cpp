@@ -17,9 +17,11 @@ class Book
     }
     void getDetails()
     {
+        cout <<"===SHOW RESULT===" <<endl;
         cout <<"Book Title  : " <<Title <<endl;
         cout <<"Book Author : " <<Author <<endl;
         cout <<"Book Price  : " <<Price <<endl;
+        cout <<endl;
     }
 };
 int main()
