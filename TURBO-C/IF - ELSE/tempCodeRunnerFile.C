@@ -1,16 +1,3 @@
-/*
-| No. | Program Description                                                 |
-| --- | ------------------------------------------------------------------- |
-| 1.  | Check whether a number is **even or odd**                           |
-| 2.  | Check whether a number is **positive, negative or zero**            |
-| 3.  | Find the **largest of two numbers**                                 |
-| 4.  | Find the **largest of three numbers** using nested if               |
-| 5.  | Check whether a number is **divisible by 5 and 11**                 |
-| 6.  | Check whether a number is **prime or not** (basic logic)            |
-| 7.  | Check whether a year is **leap year or not**                        |
-| 8.  | Take marks and print **Grade (A, B, C, Fail)** using else-if ladder |
-| 9.  | Check whether a character is **vowel or consonant**                 |
-| 10. | Check whether a person is **eligible to vote** (age >= 18)          |*/
 #include<stdio.h>
 int main()
 {
@@ -87,18 +74,15 @@ int main()
          printf("\nThis number is Not Divided By 5 and 11 :%d",divide);
     }
      printf("\n---------------------------------------");
-    int i, flag = 1,prime=7;
-    for(i = 2; i < prime; i++) {
-    if(prime % i == 0) {
-        flag = 0;
-        break;
+    int prime=9;
+    if (prime %2!= 0)//bro prime ka logic mujhe nahi aata 
+    {
+        printf("\n Number is prime :%d",prime);
     }
-}
-if (flag == 1)
-    printf("\nPrime :%d",prime);
-else
-    printf("\nNot Prime :%d",prime);
-
+    else
+    {
+       printf("\n Number is Not prime :%d",prime); 
+    }
      printf("\n---------------------------------------");
      int year=2024;
      if (year %100!=0 && year %4 == 0) 
