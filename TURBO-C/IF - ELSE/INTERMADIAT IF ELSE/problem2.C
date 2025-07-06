@@ -1,0 +1,1 @@
+/*Take a number from user and check if it is **3-digit positive number or not**  */
