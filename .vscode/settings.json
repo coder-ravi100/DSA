@@ -9,6 +9,9 @@
         "problem1.C": "cpp",
         "problem2.C": "cpp",
         "problem3.C": "cpp",
-        "Basic.C": "cpp"
+        "Basic.C": "cpp",
+        "problem4.C": "cpp",
+        "problem5.C": "cpp",
+        "problem6.C": "cpp"
     }
 }
