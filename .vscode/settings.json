@@ -1,17 +1,7 @@
 {
     "files.associations": {
-        "Intermaediat.C": "cpp",
-        "EP1.C": "cpp",
-        "EP2.C": "cpp",
-        "EP3.C": "cpp",
-        "EP4.C": "cpp",
-        "EP5.C": "cpp",
+        "problem7.C": "cpp",
         "problem1.C": "cpp",
-        "problem2.C": "cpp",
-        "problem3.C": "cpp",
-        "Basic.C": "cpp",
-        "problem4.C": "cpp",
-        "problem5.C": "cpp",
-        "problem6.C": "cpp"
+        "problem8.C": "cpp"
     }
 }
