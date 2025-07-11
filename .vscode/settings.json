@@ -22,6 +22,8 @@
         "BASIC 1.C": "cpp",
         "BASIC1.C": "cpp",
         "BASIC2.C": "cpp",
-        "BASIC3.C": "cpp"
+        "BASIC3.C": "cpp",
+        "BASIC4.C": "cpp",
+        "BASIC5.C": "cpp"
     }
 }
